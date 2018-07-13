@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<block>
+  <name>Constraint_Beamformer</name>
+  <key>beamformer_Constraint_Beamformer</key>
+  <category>beamformer</category>
+  <import>import beamformer</import>
+  <make>beamformer.Constraint_Beamformer($corr, $bf_type, $channel, $num_targets, $norm_spacing, $num_ant_ele)</make>
+  <!-- Make one 'param' node for every Parameter you want settable from the GUI. Sub-nodes: * name * key (makes the value accessible as $keyname, e.g. in the make node) * type -->
+  <param>
+    <name>Autocorrelation Martix</name>
+    <key>corr</key>
+    <value>((1,0),(1,0))</value>
+    <type>raw</type>
+  </param>
+
+  <param>
+    <name>Beamformer Type</name>
+    <key>bf_type</key>
+    <value></value>
+    <type>enum</type>
+    <param>
+      <name>Autocorrelation Martix</name>
+      <key>corr</key>
+      <value>((1,0),(1,0))</value>
+      <type>raw</type>
+    </param>
+
+    <param>
+      <name>Beamformer Type</name>
+      <key>bf_type</key>
+      <value></value>
+      <type>enum</type>
+      <option>
+        <name>Conventional</name>
+        <key>0</key>
+      </option>
+      <option>
+        <name>LCMV</name>
+        <param>
+          <name>Autocorrelation Martix</name>
+          <key>corr</key>
+          <value>((1,0),(1,0))</value>
+          <type>raw</type>
+        </param>
+
+        <param>
+          <name>Beamformer Type</name>
+          <key>bf_type</key>
+          <value></value>
+          <type>enum</type>
+          <option>
+            <name>Conventional</name>
+            <key>bf_type</key>
+            <value></value>
+            <type>enum</type>
+            <option>
+              <name>Conventional</name>
+              <key>0</key>
+              <key>0</key>
+              <key>1</key>
+            </option>
+            <type>
+
+              <param>
+                <name>Channel</name>
+                <key>channel</key>
+                <value>1</value>
+                <type>int</type>
+              </param>
+
+              <param>
+                <name>Normalized Spacing</name>
+                <key>norm_spacing</key>
+                <value>0.5</value>
+                <type>float</type>
+              </param>
+
+              <param>
+                <name>Num Targets</name>
+                <key>num_targets</key>
+                <value>1</value>
+                <type>int</type>
+              </param>
+
+              <param>
+                <name>Num Ant Elements</name>
+                <key>num_ant_ele</key>
+                <value>4</value>
+                <type>int</type>
+              </param>
+
+              <!-- Make one 'sink' node per input. Sub-nodes: * name (an identifier for the GUI) * type * vlen * optional (set to 1 for optional inputs) -->
+              <sink>
+                <name>in</name>
+                <type>float</type>
+                <nports>$num_targets</nports>
+              </sink>
+              <source>
+                <name>out</name>
+                <type>complex</type>
+                <vlen>$num_ant_ele</vlen>
+              </source>
+              <doc>
+                This block creates weight for Conventional and LCMV beamforming Args: norm_spacing: Normalized spacing between antennas elements. That is, distance between antenna elements divided by wavelength of the carrier signal. For example, suppose that you
+                have an antenna array whose elements are spaced roughly, d = 6.25 cm apart (equal to half-wavelength of a 2.4 GHz carrier signal). When using such an array to receive a signal over a carrier frequency of 950 MHz, whose wavelength is lambda = 31.58
+                cm, set norm_spacing = d/lambda = 6.25/31.58 = 0.1979. num_targets: Num. of targets to estimate. num_ant_ele: Num. of elements in the antenna array. beamformer_type: Choose between Conventional beamformer and LCMV beamformer. channel: Choose which
+                AoA to look on.
+              </doc>
+            </block>

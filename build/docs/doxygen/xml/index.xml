@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.11">
+  <compound refid="classgr_1_1beamformer_1_1beampattern" kind="class"><name>gr::beamformer::beampattern</name>
+    <member refid="classgr_1_1beamformer_1_1beampattern_1a836b795faa19ed9ca77069b143f2e6b1" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1beamformer_1_1beampattern_1a9bdb8d3a3d72a840356ac475f53065ba" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1beamformer_1_1beampattern__impl" kind="class"><name>gr::beamformer::beampattern_impl</name>
+    <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a191daf48635e4874391d5417c5cf0e10" kind="variable"><name>d_norm_spacing</name></member>
+    <member refid="classgr_1_1beamformer_1_1beampattern__impl_1aeed03842f9eac0f4d8a7a06e42ec9ae8" kind="variable"><name>d_num_targets</name></member>
+    <member refid="classgr_1_1beamformer_1_1beampattern__impl_1ad24e79b01b7450bd9205c5332244d377" kind="variable"><name>d_num_ant_ele</name></member>
+    <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a51d50314f75384e12cb040b4b69b5a35" kind="variable"><name>d_pspectrum_len</name></member>
+    <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a3c5aad471dc4b6a045a0c559c22d2fc7" kind="variable"><name>d_theta</name></member>
+    <member refid="classgr_1_1beamformer_1_1beampattern__impl_1acbc4702b80518eacfcc9b2e548c9fe03" kind="variable"><name>d_array_loc</name></member>
+    <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a355e7bb82e9cfe40dc4ff66db2ec05b5" kind="variable"><name>d_vii_matrix</name></member>
+    <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a92ac79b5d8a3ac7b892a0b5ba57efdb9" kind="variable"><name>d_vii_matrix_trans</name></member>
+    <member refid="classgr_1_1beamformer_1_1beampattern__impl_1ac985234f3780f4373088c65377241062" kind="function"><name>beampattern_impl</name></member>
+    <member refid="classgr_1_1beamformer_1_1beampattern__impl_1ae9be31bd562ba91081b86e42ec649f6f" kind="function"><name>~beampattern_impl</name></member>
+    <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a3db88d88bab3ffc843f8d32d6dfbf77b" kind="function"><name>amv</name></member>
+    <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a8c88023d31a6dfaebc32c63ba3071576" kind="function"><name>work</name></member>
+  </compound>
+  <compound refid="classgr_1_1beamformer_1_1Constraint__Beamformer" kind="class"><name>gr::beamformer::Constraint_Beamformer</name>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer_1a8c81780851d159aa310b9bbd8cee34ea" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer_1a8c81780851d159aa310b9bbd8cee34ea" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer_1aea99987953875af7badefb2218299226" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer_1a612494df2410e8ab7ad87695ff2072ba" kind="function"><name>make</name></member>
+  </compound>
+  <compound refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl" kind="class"><name>gr::beamformer::Constraint_Beamformer_impl</name>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a75c790da11d86b8f5ff2562fa2205e83" kind="variable"><name>d_corr</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1aecc18b631c4c9b3236c1223889e4543d" kind="variable"><name>d_bf_type</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a1fd40b518628bc3b04932edb63119149" kind="variable"><name>d_channel</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a47f9492a503d14c6d4741e3c130d043f" kind="variable"><name>d_norm_spacing</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a95174f57c7816495d2e7daa4a31daea2" kind="variable"><name>d_num_targets</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a75e8875d6d8e4efc9d834a839642d242" kind="variable"><name>d_num_ant_ele</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1aab2d4de560f516b76b15f73acb862985" kind="variable"><name>d_theta</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a7ea5551be9c4f20c53d885a7086861c7" kind="variable"><name>d_array_loc</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a505876ac3baba2a7a08673bf59377103" kind="variable"><name>d_type</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a97e23474c7b31a45b6b4ff4e0ab217b9" kind="variable"><name>d_weight</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1aebab0435c82f72e8211b4acf40efddc2" kind="function"><name>Constraint_Beamformer_impl</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a816c63366188de50caadcdaf2f48e66d" kind="function"><name>~Constraint_Beamformer_impl</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1afcf256cdebef5e06ad29dba213a55907" kind="function"><name>amv</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a3ceb1d9dabe5df0ea4166a60bf8dddec" kind="function"><name>general_work</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1acdbb95a58c151ef5ac8e4c15ceae6bf9" kind="function"><name>Constraint_Beamformer_impl</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a816c63366188de50caadcdaf2f48e66d" kind="function"><name>~Constraint_Beamformer_impl</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1afcf256cdebef5e06ad29dba213a55907" kind="function"><name>amv</name></member>
+    <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a3ceb1d9dabe5df0ea4166a60bf8dddec" kind="function"><name>general_work</name></member>
+  </compound>
+  <compound refid="namespacearma" kind="namespace"><name>arma</name>
+  </compound>
+  <compound refid="namespacegr" kind="namespace"><name>gr</name>
+  </compound>
+  <compound refid="namespacegr_1_1beamformer" kind="namespace"><name>gr::beamformer</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="api_8h" kind="file"><name>api.h</name>
+    <member refid="api_8h_1a7a89938ec8bcf4e0fd47a319b31165e0" kind="define"><name>BEAMFORMER_API</name></member>
+  </compound>
+  <compound refid="beampattern_8h" kind="file"><name>beampattern.h</name>
+  </compound>
+  <compound refid="beampattern__impl_8h" kind="file"><name>beampattern_impl.h</name>
+  </compound>
+  <compound refid="include_2beamformer_2Constraint__Beamformer_8h" kind="file"><name>include/beamformer/Constraint_Beamformer.h</name>
+  </compound>
+  <compound refid="temp_2Constraint__Beamformer_8h" kind="file"><name>temp/Constraint_Beamformer.h</name>
+  </compound>
+  <compound refid="lib_2Constraint__Beamformer__impl_8h" kind="file"><name>lib/Constraint_Beamformer_impl.h</name>
+  </compound>
+  <compound refid="temp_2Constraint__Beamformer__impl_8h" kind="file"><name>temp/Constraint_Beamformer_impl.h</name>
+  </compound>
+  <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
+  </compound>
+  <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="group__block" kind="group"><name>block</name>
+  </compound>
+  <compound refid="dir_e696d481c16de4cf299929b4dbe415d8" kind="dir"><name>beamformer</name>
+  </compound>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>include</name>
+  </compound>
+  <compound refid="dir_97aefd0d527b934f1d99a682da8fe6a9" kind="dir"><name>lib</name>
+  </compound>
+  <compound refid="dir_28e1bb8382970ac72e8ae3b23df4a891" kind="dir"><name>temp</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacegr_1_1beamformer" kind="namespace" language="C++">
+    <compoundname>gr::beamformer</compoundname>
+    <innerclass refid="classgr_1_1beamformer_1_1beampattern" prot="public">gr::beamformer::beampattern</innerclass>
+    <innerclass refid="classgr_1_1beamformer_1_1beampattern__impl" prot="public">gr::beamformer::beampattern_impl</innerclass>
+    <innerclass refid="classgr_1_1beamformer_1_1Constraint__Beamformer" prot="public">gr::beamformer::Constraint_Beamformer</innerclass>
+    <innerclass refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl" prot="public">gr::beamformer::Constraint_Beamformer_impl</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/wsl/gr-beamformer/include/beamformer/beampattern.h" line="29" column="1"/>
+  </compounddef>
+</doxygen>

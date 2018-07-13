@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_e696d481c16de4cf299929b4dbe415d8" kind="dir">
+    <compoundname>beamformer</compoundname>
+    <innerfile refid="api_8h">api.h</innerfile>
+    <innerfile refid="beampattern_8h">beampattern.h</innerfile>
+    <innerfile refid="include_2beamformer_2Constraint__Beamformer_8h">include/beamformer/Constraint_Beamformer.h</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/wsl/gr-beamformer/include/beamformer/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::beamformer::Constraint_Beamformer_impl</compoundname>
+    <basecompoundref refid="classgr_1_1beamformer_1_1Constraint__Beamformer" prot="public" virt="non-virtual">gr::beamformer::Constraint_Beamformer</basecompoundref>
+    <basecompoundref refid="classgr_1_1beamformer_1_1Constraint__Beamformer" prot="public" virt="non-virtual">gr::beamformer::Constraint_Beamformer</basecompoundref>
+    <includes refid="lib_2Constraint__Beamformer__impl_8h" local="no">Constraint_Beamformer_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a75c790da11d86b8f5ff2562fa2205e83" prot="private" static="no" mutable="no">
+        <type>cx_fmat</type>
+        <definition>cx_fmat gr::beamformer::Constraint_Beamformer_impl::d_corr</definition>
+        <argsstring></argsstring>
+        <name>d_corr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" line="35" column="1" bodyfile="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1aecc18b631c4c9b3236c1223889e4543d" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::beamformer::Constraint_Beamformer_impl::d_bf_type</definition>
+        <argsstring></argsstring>
+        <name>d_bf_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" line="36" column="1" bodyfile="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a1fd40b518628bc3b04932edb63119149" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::beamformer::Constraint_Beamformer_impl::d_channel</definition>
+        <argsstring></argsstring>
+        <name>d_channel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" line="37" column="1" bodyfile="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a47f9492a503d14c6d4741e3c130d043f" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::beamformer::Constraint_Beamformer_impl::d_norm_spacing</definition>
+        <argsstring></argsstring>
+        <name>d_norm_spacing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" line="38" column="1" bodyfile="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a95174f57c7816495d2e7daa4a31daea2" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::beamformer::Constraint_Beamformer_impl::d_num_targets</definition>
+        <argsstring></argsstring>
+        <name>d_num_targets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" line="39" column="1" bodyfile="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a75e8875d6d8e4efc9d834a839642d242" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::beamformer::Constraint_Beamformer_impl::d_num_ant_ele</definition>
+        <argsstring></argsstring>
+        <name>d_num_ant_ele</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" line="40" column="1" bodyfile="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1aab2d4de560f516b76b15f73acb862985" prot="private" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* gr::beamformer::Constraint_Beamformer_impl::d_theta</definition>
+        <argsstring></argsstring>
+        <name>d_theta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" line="41" column="1" bodyfile="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a7ea5551be9c4f20c53d885a7086861c7" prot="private" static="no" mutable="no">
+        <type>fcolvec</type>
+        <definition>fcolvec gr::beamformer::Constraint_Beamformer_impl::d_array_loc</definition>
+        <argsstring></argsstring>
+        <name>d_array_loc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" line="42" column="1" bodyfile="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a505876ac3baba2a7a08673bf59377103" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::beamformer::Constraint_Beamformer_impl::d_type</definition>
+        <argsstring></argsstring>
+        <name>d_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/temp/Constraint_Beamformer_impl.h" line="38" column="1" bodyfile="/home/wsl/gr-beamformer/temp/Constraint_Beamformer_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a97e23474c7b31a45b6b4ff4e0ab217b9" prot="private" static="no" mutable="no">
+        <type>fcolvec</type>
+        <definition>fcolvec gr::beamformer::Constraint_Beamformer_impl::d_weight</definition>
+        <argsstring></argsstring>
+        <name>d_weight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/temp/Constraint_Beamformer_impl.h" line="41" column="1" bodyfile="/home/wsl/gr-beamformer/temp/Constraint_Beamformer_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1aebab0435c82f72e8211b4acf40efddc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::beamformer::Constraint_Beamformer_impl::Constraint_Beamformer_impl</definition>
+        <argsstring>(cx_fmat corr, int bf_type, int channel, int num_targets, float norm_spacing, int num_ant_ele)</argsstring>
+        <name>Constraint_Beamformer_impl</name>
+        <param>
+          <type>cx_fmat</type>
+          <declname>corr</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bf_type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_targets</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>norm_spacing</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_ant_ele</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a816c63366188de50caadcdaf2f48e66d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::beamformer::Constraint_Beamformer_impl::~Constraint_Beamformer_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~Constraint_Beamformer_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1afcf256cdebef5e06ad29dba213a55907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::beamformer::Constraint_Beamformer_impl::amv</definition>
+        <argsstring>(cx_fcolvec &amp;v_ii, fcolvec &amp;array_loc, float theta)</argsstring>
+        <name>amv</name>
+        <param>
+          <type>cx_fcolvec &amp;</type>
+          <declname>v_ii</declname>
+        </param>
+        <param>
+          <type>fcolvec &amp;</type>
+          <declname>array_loc</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>theta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a3ceb1d9dabe5df0ea4166a60bf8dddec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::beamformer::Constraint_Beamformer_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" line="51" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1acdbb95a58c151ef5ac8e4c15ceae6bf9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::beamformer::Constraint_Beamformer_impl::Constraint_Beamformer_impl</definition>
+        <argsstring>(float norm_spacing, int num_targets, int inputs, int type, int channel)</argsstring>
+        <name>Constraint_Beamformer_impl</name>
+        <param>
+          <type>float</type>
+          <declname>norm_spacing</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_targets</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>channel</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/temp/Constraint_Beamformer_impl.h" line="44" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a816c63366188de50caadcdaf2f48e66d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::beamformer::Constraint_Beamformer_impl::~Constraint_Beamformer_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~Constraint_Beamformer_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/temp/Constraint_Beamformer_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1afcf256cdebef5e06ad29dba213a55907" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::beamformer::Constraint_Beamformer_impl::amv</definition>
+        <argsstring>(cx_fcolvec &amp;v_ii, fcolvec &amp;array_loc, float theta)</argsstring>
+        <name>amv</name>
+        <param>
+          <type>cx_fcolvec &amp;</type>
+          <declname>v_ii</declname>
+        </param>
+        <param>
+          <type>fcolvec &amp;</type>
+          <declname>array_loc</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>theta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/temp/Constraint_Beamformer_impl.h" line="48" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a3ceb1d9dabe5df0ea4166a60bf8dddec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::beamformer::Constraint_Beamformer_impl::general_work</definition>
+        <argsstring>(int noutput_items, gr_vector_int &amp;ninput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>general_work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_int &amp;</type>
+          <declname>ninput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/temp/Constraint_Beamformer_impl.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="35">
+        <label>block</label>
+      </node>
+      <node id="33">
+        <label>gr::beamformer::Constraint_Beamformer</label>
+        <link refid="classgr_1_1beamformer_1_1Constraint__Beamformer"/>
+        <childnode refid="34" relation="public-inheritance">
+        </childnode>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>gr::block</label>
+      </node>
+      <node id="32">
+        <label>gr::beamformer::Constraint_Beamformer_impl</label>
+        <link refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="39">
+        <label>block</label>
+      </node>
+      <node id="37">
+        <label>gr::beamformer::Constraint_Beamformer</label>
+        <link refid="classgr_1_1beamformer_1_1Constraint__Beamformer"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>gr::block</label>
+      </node>
+      <node id="36">
+        <label>gr::beamformer::Constraint_Beamformer_impl</label>
+        <link refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" line="33" column="1" bodyfile="/home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.h" bodystart="32" bodyend="55"/>
+    <listofallmembers>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1afcf256cdebef5e06ad29dba213a55907" prot="public" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>amv</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1afcf256cdebef5e06ad29dba213a55907" prot="public" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>amv</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1aebab0435c82f72e8211b4acf40efddc2" prot="public" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>Constraint_Beamformer_impl</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1acdbb95a58c151ef5ac8e4c15ceae6bf9" prot="public" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>Constraint_Beamformer_impl</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a7ea5551be9c4f20c53d885a7086861c7" prot="private" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>d_array_loc</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1aecc18b631c4c9b3236c1223889e4543d" prot="private" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>d_bf_type</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a1fd40b518628bc3b04932edb63119149" prot="private" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>d_channel</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a75c790da11d86b8f5ff2562fa2205e83" prot="private" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>d_corr</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a47f9492a503d14c6d4741e3c130d043f" prot="private" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>d_norm_spacing</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a75e8875d6d8e4efc9d834a839642d242" prot="private" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>d_num_ant_ele</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a95174f57c7816495d2e7daa4a31daea2" prot="private" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>d_num_targets</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1aab2d4de560f516b76b15f73acb862985" prot="private" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>d_theta</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a505876ac3baba2a7a08673bf59377103" prot="private" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>d_type</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a97e23474c7b31a45b6b4ff4e0ab217b9" prot="private" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>d_weight</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a3ceb1d9dabe5df0ea4166a60bf8dddec" prot="public" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a3ceb1d9dabe5df0ea4166a60bf8dddec" prot="public" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>general_work</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer_1aea99987953875af7badefb2218299226" prot="public" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer_1a612494df2410e8ab7ad87695ff2072ba" prot="public" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer_1a8c81780851d159aa310b9bbd8cee34ea" prot="public" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer_1a8c81780851d159aa310b9bbd8cee34ea" prot="public" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a816c63366188de50caadcdaf2f48e66d" prot="public" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>~Constraint_Beamformer_impl</name></member>
+      <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a816c63366188de50caadcdaf2f48e66d" prot="public" virt="non-virtual"><scope>gr::beamformer::Constraint_Beamformer_impl</scope><name>~Constraint_Beamformer_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

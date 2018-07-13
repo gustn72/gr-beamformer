@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1beamformer_1_1beampattern__impl" kind="class" language="C++" prot="public">
+    <compoundname>gr::beamformer::beampattern_impl</compoundname>
+    <basecompoundref refid="classgr_1_1beamformer_1_1beampattern" prot="public" virt="non-virtual">gr::beamformer::beampattern</basecompoundref>
+    <includes refid="beampattern__impl_8h" local="no">beampattern_impl.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1beampattern__impl_1a191daf48635e4874391d5417c5cf0e10" prot="private" static="no" mutable="no">
+        <type>float</type>
+        <definition>float gr::beamformer::beampattern_impl::d_norm_spacing</definition>
+        <argsstring></argsstring>
+        <name>d_norm_spacing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/beampattern_impl.h" line="35" column="1" bodyfile="/home/wsl/gr-beamformer/lib/beampattern_impl.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1beampattern__impl_1aeed03842f9eac0f4d8a7a06e42ec9ae8" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::beamformer::beampattern_impl::d_num_targets</definition>
+        <argsstring></argsstring>
+        <name>d_num_targets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/beampattern_impl.h" line="36" column="1" bodyfile="/home/wsl/gr-beamformer/lib/beampattern_impl.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1beampattern__impl_1ad24e79b01b7450bd9205c5332244d377" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::beamformer::beampattern_impl::d_num_ant_ele</definition>
+        <argsstring></argsstring>
+        <name>d_num_ant_ele</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/beampattern_impl.h" line="37" column="1" bodyfile="/home/wsl/gr-beamformer/lib/beampattern_impl.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1beampattern__impl_1a51d50314f75384e12cb040b4b69b5a35" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int gr::beamformer::beampattern_impl::d_pspectrum_len</definition>
+        <argsstring></argsstring>
+        <name>d_pspectrum_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/beampattern_impl.h" line="38" column="1" bodyfile="/home/wsl/gr-beamformer/lib/beampattern_impl.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1beampattern__impl_1a3c5aad471dc4b6a045a0c559c22d2fc7" prot="private" static="no" mutable="no">
+        <type>float *</type>
+        <definition>float* gr::beamformer::beampattern_impl::d_theta</definition>
+        <argsstring></argsstring>
+        <name>d_theta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/beampattern_impl.h" line="39" column="1" bodyfile="/home/wsl/gr-beamformer/lib/beampattern_impl.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1beampattern__impl_1acbc4702b80518eacfcc9b2e548c9fe03" prot="private" static="no" mutable="no">
+        <type>fcolvec</type>
+        <definition>fcolvec gr::beamformer::beampattern_impl::d_array_loc</definition>
+        <argsstring></argsstring>
+        <name>d_array_loc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/beampattern_impl.h" line="40" column="1" bodyfile="/home/wsl/gr-beamformer/lib/beampattern_impl.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1beampattern__impl_1a355e7bb82e9cfe40dc4ff66db2ec05b5" prot="private" static="no" mutable="no">
+        <type>cx_fmat</type>
+        <definition>cx_fmat gr::beamformer::beampattern_impl::d_vii_matrix</definition>
+        <argsstring></argsstring>
+        <name>d_vii_matrix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/beampattern_impl.h" line="41" column="1" bodyfile="/home/wsl/gr-beamformer/lib/beampattern_impl.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classgr_1_1beamformer_1_1beampattern__impl_1a92ac79b5d8a3ac7b892a0b5ba57efdb9" prot="private" static="no" mutable="no">
+        <type>cx_fmat</type>
+        <definition>cx_fmat gr::beamformer::beampattern_impl::d_vii_matrix_trans</definition>
+        <argsstring></argsstring>
+        <name>d_vii_matrix_trans</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/beampattern_impl.h" line="42" column="1" bodyfile="/home/wsl/gr-beamformer/lib/beampattern_impl.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1beampattern__impl_1ac985234f3780f4373088c65377241062" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::beamformer::beampattern_impl::beampattern_impl</definition>
+        <argsstring>(float norm_spacing, int num_targets, int inputs, int pspectrum_len)</argsstring>
+        <name>beampattern_impl</name>
+        <param>
+          <type>float</type>
+          <declname>norm_spacing</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>num_targets</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>inputs</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pspectrum_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/beampattern_impl.h" line="45" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1beampattern__impl_1ae9be31bd562ba91081b86e42ec649f6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>gr::beamformer::beampattern_impl::~beampattern_impl</definition>
+        <argsstring>()</argsstring>
+        <name>~beampattern_impl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/beampattern_impl.h" line="46" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1beampattern__impl_1a3db88d88bab3ffc843f8d32d6dfbf77b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void gr::beamformer::beampattern_impl::amv</definition>
+        <argsstring>(cx_fcolvec &amp;v_ii, fcolvec &amp;array_loc, float theta)</argsstring>
+        <name>amv</name>
+        <param>
+          <type>cx_fcolvec &amp;</type>
+          <declname>v_ii</declname>
+        </param>
+        <param>
+          <type>fcolvec &amp;</type>
+          <declname>array_loc</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>theta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/beampattern_impl.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1beampattern__impl_1a8c88023d31a6dfaebc32c63ba3071576" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int gr::beamformer::beampattern_impl::work</definition>
+        <argsstring>(int noutput_items, gr_vector_const_void_star &amp;input_items, gr_vector_void_star &amp;output_items)</argsstring>
+        <name>work</name>
+        <param>
+          <type>int</type>
+          <declname>noutput_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_const_void_star &amp;</type>
+          <declname>input_items</declname>
+        </param>
+        <param>
+          <type>gr_vector_void_star &amp;</type>
+          <declname>output_items</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/lib/beampattern_impl.h" line="51" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="21">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="19">
+        <label>gr::beamformer::beampattern_impl</label>
+        <link refid="classgr_1_1beamformer_1_1beampattern__impl"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="20">
+        <label>gr::beamformer::beampattern</label>
+        <link refid="classgr_1_1beamformer_1_1beampattern"/>
+        <childnode refid="21" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="24">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="22">
+        <label>gr::beamformer::beampattern_impl</label>
+        <link refid="classgr_1_1beamformer_1_1beampattern__impl"/>
+        <childnode refid="23" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="23">
+        <label>gr::beamformer::beampattern</label>
+        <link refid="classgr_1_1beamformer_1_1beampattern"/>
+        <childnode refid="24" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/wsl/gr-beamformer/lib/beampattern_impl.h" line="32" column="1" bodyfile="/home/wsl/gr-beamformer/lib/beampattern_impl.h" bodystart="31" bodyend="54"/>
+    <listofallmembers>
+      <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a3db88d88bab3ffc843f8d32d6dfbf77b" prot="public" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>amv</name></member>
+      <member refid="classgr_1_1beamformer_1_1beampattern__impl_1ac985234f3780f4373088c65377241062" prot="public" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>beampattern_impl</name></member>
+      <member refid="classgr_1_1beamformer_1_1beampattern__impl_1acbc4702b80518eacfcc9b2e548c9fe03" prot="private" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>d_array_loc</name></member>
+      <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a191daf48635e4874391d5417c5cf0e10" prot="private" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>d_norm_spacing</name></member>
+      <member refid="classgr_1_1beamformer_1_1beampattern__impl_1ad24e79b01b7450bd9205c5332244d377" prot="private" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>d_num_ant_ele</name></member>
+      <member refid="classgr_1_1beamformer_1_1beampattern__impl_1aeed03842f9eac0f4d8a7a06e42ec9ae8" prot="private" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>d_num_targets</name></member>
+      <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a51d50314f75384e12cb040b4b69b5a35" prot="private" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>d_pspectrum_len</name></member>
+      <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a3c5aad471dc4b6a045a0c559c22d2fc7" prot="private" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>d_theta</name></member>
+      <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a355e7bb82e9cfe40dc4ff66db2ec05b5" prot="private" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>d_vii_matrix</name></member>
+      <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a92ac79b5d8a3ac7b892a0b5ba57efdb9" prot="private" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>d_vii_matrix_trans</name></member>
+      <member refid="classgr_1_1beamformer_1_1beampattern_1a9bdb8d3a3d72a840356ac475f53065ba" prot="public" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>make</name></member>
+      <member refid="classgr_1_1beamformer_1_1beampattern_1a836b795faa19ed9ca77069b143f2e6b1" prot="public" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>sptr</name></member>
+      <member refid="classgr_1_1beamformer_1_1beampattern__impl_1a8c88023d31a6dfaebc32c63ba3071576" prot="public" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>work</name></member>
+      <member refid="classgr_1_1beamformer_1_1beampattern__impl_1ae9be31bd562ba91081b86e42ec649f6f" prot="public" virt="non-virtual"><scope>gr::beamformer::beampattern_impl</scope><name>~beampattern_impl</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
