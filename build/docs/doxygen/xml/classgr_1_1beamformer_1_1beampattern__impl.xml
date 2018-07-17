@@ -209,36 +209,36 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="21">
-        <label>gr::sync_block</label>
+      <node id="27">
+        <label>sync_block</label>
       </node>
-      <node id="19">
+      <node id="25">
         <label>gr::beamformer::beampattern_impl</label>
         <link refid="classgr_1_1beamformer_1_1beampattern__impl"/>
-        <childnode refid="20" relation="public-inheritance">
+        <childnode refid="26" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="20">
+      <node id="26">
         <label>gr::beamformer::beampattern</label>
         <link refid="classgr_1_1beamformer_1_1beampattern"/>
-        <childnode refid="21" relation="public-inheritance">
+        <childnode refid="27" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="24">
-        <label>gr::sync_block</label>
+      <node id="30">
+        <label>sync_block</label>
       </node>
-      <node id="22">
+      <node id="28">
         <label>gr::beamformer::beampattern_impl</label>
         <link refid="classgr_1_1beamformer_1_1beampattern__impl"/>
-        <childnode refid="23" relation="public-inheritance">
+        <childnode refid="29" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="23">
+      <node id="29">
         <label>gr::beamformer::beampattern</label>
         <link refid="classgr_1_1beamformer_1_1beampattern"/>
-        <childnode refid="24" relation="public-inheritance">
+        <childnode refid="30" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

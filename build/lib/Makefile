@@ -234,6 +234,33 @@ beampattern_impl.cc.s:
 	cd /home/wsl/gr-beamformer/build && $(MAKE) -f lib/CMakeFiles/gnuradio-beamformer.dir/build.make lib/CMakeFiles/gnuradio-beamformer.dir/beampattern_impl.cc.s
 .PHONY : beampattern_impl.cc.s
 
+probe_signal_mX_impl.o: probe_signal_mX_impl.cc.o
+
+.PHONY : probe_signal_mX_impl.o
+
+# target to build an object file
+probe_signal_mX_impl.cc.o:
+	cd /home/wsl/gr-beamformer/build && $(MAKE) -f lib/CMakeFiles/gnuradio-beamformer.dir/build.make lib/CMakeFiles/gnuradio-beamformer.dir/probe_signal_mX_impl.cc.o
+.PHONY : probe_signal_mX_impl.cc.o
+
+probe_signal_mX_impl.i: probe_signal_mX_impl.cc.i
+
+.PHONY : probe_signal_mX_impl.i
+
+# target to preprocess a source file
+probe_signal_mX_impl.cc.i:
+	cd /home/wsl/gr-beamformer/build && $(MAKE) -f lib/CMakeFiles/gnuradio-beamformer.dir/build.make lib/CMakeFiles/gnuradio-beamformer.dir/probe_signal_mX_impl.cc.i
+.PHONY : probe_signal_mX_impl.cc.i
+
+probe_signal_mX_impl.s: probe_signal_mX_impl.cc.s
+
+.PHONY : probe_signal_mX_impl.s
+
+# target to generate assembly for a file
+probe_signal_mX_impl.cc.s:
+	cd /home/wsl/gr-beamformer/build && $(MAKE) -f lib/CMakeFiles/gnuradio-beamformer.dir/build.make lib/CMakeFiles/gnuradio-beamformer.dir/probe_signal_mX_impl.cc.s
+.PHONY : probe_signal_mX_impl.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -254,6 +281,9 @@ help:
 	@echo "... beampattern_impl.o"
 	@echo "... beampattern_impl.i"
 	@echo "... beampattern_impl.s"
+	@echo "... probe_signal_mX_impl.o"
+	@echo "... probe_signal_mX_impl.i"
+	@echo "... probe_signal_mX_impl.s"
 .PHONY : help
 
 

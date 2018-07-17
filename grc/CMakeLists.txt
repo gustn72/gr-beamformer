@@ -18,5 +18,8 @@
 # Boston, MA 02110-1301, USA.
 install(FILES
     beamformer_beampattern.xml
-    beamformer_Constraint_Beamformer.xml DESTINATION share/gnuradio/grc/blocks
+    beamformer_Constraint_Beamformer.xml
+    beamformer_probe_signal_mX.xml
+    beamformer_probe_signal_mX.xml
+    beamformer_probe_signal_mX.xml DESTINATION share/gnuradio/grc/blocks
 )

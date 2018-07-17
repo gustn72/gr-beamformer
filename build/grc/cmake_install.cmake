@@ -36,6 +36,9 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gnuradio/grc/blocks" TYPE FILE FILES
     "/home/wsl/gr-beamformer/grc/beamformer_beampattern.xml"
     "/home/wsl/gr-beamformer/grc/beamformer_Constraint_Beamformer.xml"
+    "/home/wsl/gr-beamformer/grc/beamformer_probe_signal_mX.xml"
+    "/home/wsl/gr-beamformer/grc/beamformer_probe_signal_mX.xml"
+    "/home/wsl/gr-beamformer/grc/beamformer_probe_signal_mX.xml"
     )
 endif()
 

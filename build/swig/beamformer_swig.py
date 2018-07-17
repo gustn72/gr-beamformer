@@ -967,5 +967,429 @@ Constraint_Beamformer_sptr_swigregister(Constraint_Beamformer_sptr)
 Constraint_Beamformer_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
 Constraint_Beamformer = Constraint_Beamformer.make;
 
+class probe_signal_mX(object):
+    """
+    <+description of block+>
+
+    Constructor Specific Documentation:
+
+    Return a shared_ptr to a new instance of beamformer::probe_signal_mX.
+
+    To avoid accidental use of raw pointers, beamformer::probe_signal_mX's constructor is in a private implementation class. beamformer::probe_signal_mX::make is the public interface for creating new instances.
+
+    Args:
+        col : 
+        row : 
+    """
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+
+    def make(col, row):
+        """
+        make(int col, int row) -> probe_signal_mX_sptr
+
+        <+description of block+>
+
+        Constructor Specific Documentation:
+
+        Return a shared_ptr to a new instance of beamformer::probe_signal_mX.
+
+        To avoid accidental use of raw pointers, beamformer::probe_signal_mX's constructor is in a private implementation class. beamformer::probe_signal_mX::make is the public interface for creating new instances.
+
+        Args:
+            col : 
+            row : 
+        """
+        return _beamformer_swig.probe_signal_mX_make(col, row)
+
+    make = staticmethod(make)
+
+    def level(self):
+        """level(probe_signal_mX self) -> gr_vector_vector_complexf"""
+        return _beamformer_swig.probe_signal_mX_level(self)
+
+    __swig_destroy__ = _beamformer_swig.delete_probe_signal_mX
+    __del__ = lambda self: None
+probe_signal_mX_swigregister = _beamformer_swig.probe_signal_mX_swigregister
+probe_signal_mX_swigregister(probe_signal_mX)
+
+def probe_signal_mX_make(col, row):
+    """
+    probe_signal_mX_make(int col, int row) -> probe_signal_mX_sptr
+
+    <+description of block+>
+
+    Constructor Specific Documentation:
+
+    Return a shared_ptr to a new instance of beamformer::probe_signal_mX.
+
+    To avoid accidental use of raw pointers, beamformer::probe_signal_mX's constructor is in a private implementation class. beamformer::probe_signal_mX::make is the public interface for creating new instances.
+
+    Args:
+        col : 
+        row : 
+    """
+    return _beamformer_swig.probe_signal_mX_make(col, row)
+
+class probe_signal_mX_sptr(object):
+    """Proxy of C++ boost::shared_ptr<(gr::beamformer::probe_signal_mX)> class."""
+
+    thisown = _swig_property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc='The membership flag')
+    __repr__ = _swig_repr
+
+    def __init__(self, *args):
+        """
+        __init__(boost::shared_ptr<(gr::beamformer::probe_signal_mX)> self) -> probe_signal_mX_sptr
+        __init__(boost::shared_ptr<(gr::beamformer::probe_signal_mX)> self, probe_signal_mX p) -> probe_signal_mX_sptr
+        """
+        this = _beamformer_swig.new_probe_signal_mX_sptr(*args)
+        try:
+            self.this.append(this)
+        except Exception:
+            self.this = this
+
+    def __deref__(self):
+        """__deref__(probe_signal_mX_sptr self) -> probe_signal_mX"""
+        return _beamformer_swig.probe_signal_mX_sptr___deref__(self)
+
+    __swig_destroy__ = _beamformer_swig.delete_probe_signal_mX_sptr
+    __del__ = lambda self: None
+
+    def make(self, col, row):
+        """
+        make(probe_signal_mX_sptr self, int col, int row) -> probe_signal_mX_sptr
+
+        <+description of block+>
+
+        Constructor Specific Documentation:
+
+        Return a shared_ptr to a new instance of beamformer::probe_signal_mX.
+
+        To avoid accidental use of raw pointers, beamformer::probe_signal_mX's constructor is in a private implementation class. beamformer::probe_signal_mX::make is the public interface for creating new instances.
+
+        Args:
+            col : 
+            row : 
+        """
+        return _beamformer_swig.probe_signal_mX_sptr_make(self, col, row)
+
+
+    def level(self):
+        """level(probe_signal_mX_sptr self) -> gr_vector_vector_complexf"""
+        return _beamformer_swig.probe_signal_mX_sptr_level(self)
+
+
+    def history(self):
+        """history(probe_signal_mX_sptr self) -> unsigned int"""
+        return _beamformer_swig.probe_signal_mX_sptr_history(self)
+
+
+    def declare_sample_delay(self, *args):
+        """
+        declare_sample_delay(probe_signal_mX_sptr self, int which, int delay)
+        declare_sample_delay(probe_signal_mX_sptr self, unsigned int delay)
+        """
+        return _beamformer_swig.probe_signal_mX_sptr_declare_sample_delay(self, *args)
+
+
+    def sample_delay(self, which):
+        """sample_delay(probe_signal_mX_sptr self, int which) -> unsigned int"""
+        return _beamformer_swig.probe_signal_mX_sptr_sample_delay(self, which)
+
+
+    def output_multiple(self):
+        """output_multiple(probe_signal_mX_sptr self) -> int"""
+        return _beamformer_swig.probe_signal_mX_sptr_output_multiple(self)
+
+
+    def relative_rate(self):
+        """relative_rate(probe_signal_mX_sptr self) -> double"""
+        return _beamformer_swig.probe_signal_mX_sptr_relative_rate(self)
+
+
+    def start(self):
+        """start(probe_signal_mX_sptr self) -> bool"""
+        return _beamformer_swig.probe_signal_mX_sptr_start(self)
+
+
+    def stop(self):
+        """stop(probe_signal_mX_sptr self) -> bool"""
+        return _beamformer_swig.probe_signal_mX_sptr_stop(self)
+
+
+    def nitems_read(self, which_input):
+        """nitems_read(probe_signal_mX_sptr self, unsigned int which_input) -> uint64_t"""
+        return _beamformer_swig.probe_signal_mX_sptr_nitems_read(self, which_input)
+
+
+    def nitems_written(self, which_output):
+        """nitems_written(probe_signal_mX_sptr self, unsigned int which_output) -> uint64_t"""
+        return _beamformer_swig.probe_signal_mX_sptr_nitems_written(self, which_output)
+
+
+    def max_noutput_items(self):
+        """max_noutput_items(probe_signal_mX_sptr self) -> int"""
+        return _beamformer_swig.probe_signal_mX_sptr_max_noutput_items(self)
+
+
+    def set_max_noutput_items(self, m):
+        """set_max_noutput_items(probe_signal_mX_sptr self, int m)"""
+        return _beamformer_swig.probe_signal_mX_sptr_set_max_noutput_items(self, m)
+
+
+    def unset_max_noutput_items(self):
+        """unset_max_noutput_items(probe_signal_mX_sptr self)"""
+        return _beamformer_swig.probe_signal_mX_sptr_unset_max_noutput_items(self)
+
+
+    def is_set_max_noutput_items(self):
+        """is_set_max_noutput_items(probe_signal_mX_sptr self) -> bool"""
+        return _beamformer_swig.probe_signal_mX_sptr_is_set_max_noutput_items(self)
+
+
+    def set_min_noutput_items(self, m):
+        """set_min_noutput_items(probe_signal_mX_sptr self, int m)"""
+        return _beamformer_swig.probe_signal_mX_sptr_set_min_noutput_items(self, m)
+
+
+    def min_noutput_items(self):
+        """min_noutput_items(probe_signal_mX_sptr self) -> int"""
+        return _beamformer_swig.probe_signal_mX_sptr_min_noutput_items(self)
+
+
+    def max_output_buffer(self, i):
+        """max_output_buffer(probe_signal_mX_sptr self, int i) -> long"""
+        return _beamformer_swig.probe_signal_mX_sptr_max_output_buffer(self, i)
+
+
+    def set_max_output_buffer(self, *args):
+        """
+        set_max_output_buffer(probe_signal_mX_sptr self, long max_output_buffer)
+        set_max_output_buffer(probe_signal_mX_sptr self, int port, long max_output_buffer)
+        """
+        return _beamformer_swig.probe_signal_mX_sptr_set_max_output_buffer(self, *args)
+
+
+    def min_output_buffer(self, i):
+        """min_output_buffer(probe_signal_mX_sptr self, int i) -> long"""
+        return _beamformer_swig.probe_signal_mX_sptr_min_output_buffer(self, i)
+
+
+    def set_min_output_buffer(self, *args):
+        """
+        set_min_output_buffer(probe_signal_mX_sptr self, long min_output_buffer)
+        set_min_output_buffer(probe_signal_mX_sptr self, int port, long min_output_buffer)
+        """
+        return _beamformer_swig.probe_signal_mX_sptr_set_min_output_buffer(self, *args)
+
+
+    def pc_noutput_items(self):
+        """pc_noutput_items(probe_signal_mX_sptr self) -> float"""
+        return _beamformer_swig.probe_signal_mX_sptr_pc_noutput_items(self)
+
+
+    def pc_noutput_items_avg(self):
+        """pc_noutput_items_avg(probe_signal_mX_sptr self) -> float"""
+        return _beamformer_swig.probe_signal_mX_sptr_pc_noutput_items_avg(self)
+
+
+    def pc_noutput_items_var(self):
+        """pc_noutput_items_var(probe_signal_mX_sptr self) -> float"""
+        return _beamformer_swig.probe_signal_mX_sptr_pc_noutput_items_var(self)
+
+
+    def pc_nproduced(self):
+        """pc_nproduced(probe_signal_mX_sptr self) -> float"""
+        return _beamformer_swig.probe_signal_mX_sptr_pc_nproduced(self)
+
+
+    def pc_nproduced_avg(self):
+        """pc_nproduced_avg(probe_signal_mX_sptr self) -> float"""
+        return _beamformer_swig.probe_signal_mX_sptr_pc_nproduced_avg(self)
+
+
+    def pc_nproduced_var(self):
+        """pc_nproduced_var(probe_signal_mX_sptr self) -> float"""
+        return _beamformer_swig.probe_signal_mX_sptr_pc_nproduced_var(self)
+
+
+    def pc_input_buffers_full(self, *args):
+        """
+        pc_input_buffers_full(probe_signal_mX_sptr self, int which) -> float
+        pc_input_buffers_full(probe_signal_mX_sptr self) -> pmt_vector_float
+        """
+        return _beamformer_swig.probe_signal_mX_sptr_pc_input_buffers_full(self, *args)
+
+
+    def pc_input_buffers_full_avg(self, *args):
+        """
+        pc_input_buffers_full_avg(probe_signal_mX_sptr self, int which) -> float
+        pc_input_buffers_full_avg(probe_signal_mX_sptr self) -> pmt_vector_float
+        """
+        return _beamformer_swig.probe_signal_mX_sptr_pc_input_buffers_full_avg(self, *args)
+
+
+    def pc_input_buffers_full_var(self, *args):
+        """
+        pc_input_buffers_full_var(probe_signal_mX_sptr self, int which) -> float
+        pc_input_buffers_full_var(probe_signal_mX_sptr self) -> pmt_vector_float
+        """
+        return _beamformer_swig.probe_signal_mX_sptr_pc_input_buffers_full_var(self, *args)
+
+
+    def pc_output_buffers_full(self, *args):
+        """
+        pc_output_buffers_full(probe_signal_mX_sptr self, int which) -> float
+        pc_output_buffers_full(probe_signal_mX_sptr self) -> pmt_vector_float
+        """
+        return _beamformer_swig.probe_signal_mX_sptr_pc_output_buffers_full(self, *args)
+
+
+    def pc_output_buffers_full_avg(self, *args):
+        """
+        pc_output_buffers_full_avg(probe_signal_mX_sptr self, int which) -> float
+        pc_output_buffers_full_avg(probe_signal_mX_sptr self) -> pmt_vector_float
+        """
+        return _beamformer_swig.probe_signal_mX_sptr_pc_output_buffers_full_avg(self, *args)
+
+
+    def pc_output_buffers_full_var(self, *args):
+        """
+        pc_output_buffers_full_var(probe_signal_mX_sptr self, int which) -> float
+        pc_output_buffers_full_var(probe_signal_mX_sptr self) -> pmt_vector_float
+        """
+        return _beamformer_swig.probe_signal_mX_sptr_pc_output_buffers_full_var(self, *args)
+
+
+    def pc_work_time(self):
+        """pc_work_time(probe_signal_mX_sptr self) -> float"""
+        return _beamformer_swig.probe_signal_mX_sptr_pc_work_time(self)
+
+
+    def pc_work_time_avg(self):
+        """pc_work_time_avg(probe_signal_mX_sptr self) -> float"""
+        return _beamformer_swig.probe_signal_mX_sptr_pc_work_time_avg(self)
+
+
+    def pc_work_time_var(self):
+        """pc_work_time_var(probe_signal_mX_sptr self) -> float"""
+        return _beamformer_swig.probe_signal_mX_sptr_pc_work_time_var(self)
+
+
+    def pc_work_time_total(self):
+        """pc_work_time_total(probe_signal_mX_sptr self) -> float"""
+        return _beamformer_swig.probe_signal_mX_sptr_pc_work_time_total(self)
+
+
+    def pc_throughput_avg(self):
+        """pc_throughput_avg(probe_signal_mX_sptr self) -> float"""
+        return _beamformer_swig.probe_signal_mX_sptr_pc_throughput_avg(self)
+
+
+    def set_processor_affinity(self, mask):
+        """set_processor_affinity(probe_signal_mX_sptr self, std::vector< int,std::allocator< int > > const & mask)"""
+        return _beamformer_swig.probe_signal_mX_sptr_set_processor_affinity(self, mask)
+
+
+    def unset_processor_affinity(self):
+        """unset_processor_affinity(probe_signal_mX_sptr self)"""
+        return _beamformer_swig.probe_signal_mX_sptr_unset_processor_affinity(self)
+
+
+    def processor_affinity(self):
+        """processor_affinity(probe_signal_mX_sptr self) -> std::vector< int,std::allocator< int > >"""
+        return _beamformer_swig.probe_signal_mX_sptr_processor_affinity(self)
+
+
+    def active_thread_priority(self):
+        """active_thread_priority(probe_signal_mX_sptr self) -> int"""
+        return _beamformer_swig.probe_signal_mX_sptr_active_thread_priority(self)
+
+
+    def thread_priority(self):
+        """thread_priority(probe_signal_mX_sptr self) -> int"""
+        return _beamformer_swig.probe_signal_mX_sptr_thread_priority(self)
+
+
+    def set_thread_priority(self, priority):
+        """set_thread_priority(probe_signal_mX_sptr self, int priority) -> int"""
+        return _beamformer_swig.probe_signal_mX_sptr_set_thread_priority(self, priority)
+
+
+    def name(self):
+        """name(probe_signal_mX_sptr self) -> std::string"""
+        return _beamformer_swig.probe_signal_mX_sptr_name(self)
+
+
+    def symbol_name(self):
+        """symbol_name(probe_signal_mX_sptr self) -> std::string"""
+        return _beamformer_swig.probe_signal_mX_sptr_symbol_name(self)
+
+
+    def input_signature(self):
+        """input_signature(probe_signal_mX_sptr self) -> io_signature_sptr"""
+        return _beamformer_swig.probe_signal_mX_sptr_input_signature(self)
+
+
+    def output_signature(self):
+        """output_signature(probe_signal_mX_sptr self) -> io_signature_sptr"""
+        return _beamformer_swig.probe_signal_mX_sptr_output_signature(self)
+
+
+    def unique_id(self):
+        """unique_id(probe_signal_mX_sptr self) -> long"""
+        return _beamformer_swig.probe_signal_mX_sptr_unique_id(self)
+
+
+    def to_basic_block(self):
+        """to_basic_block(probe_signal_mX_sptr self) -> basic_block_sptr"""
+        return _beamformer_swig.probe_signal_mX_sptr_to_basic_block(self)
+
+
+    def check_topology(self, ninputs, noutputs):
+        """check_topology(probe_signal_mX_sptr self, int ninputs, int noutputs) -> bool"""
+        return _beamformer_swig.probe_signal_mX_sptr_check_topology(self, ninputs, noutputs)
+
+
+    def alias(self):
+        """alias(probe_signal_mX_sptr self) -> std::string"""
+        return _beamformer_swig.probe_signal_mX_sptr_alias(self)
+
+
+    def set_block_alias(self, name):
+        """set_block_alias(probe_signal_mX_sptr self, std::string name)"""
+        return _beamformer_swig.probe_signal_mX_sptr_set_block_alias(self, name)
+
+
+    def _post(self, which_port, msg):
+        """_post(probe_signal_mX_sptr self, swig_int_ptr which_port, swig_int_ptr msg)"""
+        return _beamformer_swig.probe_signal_mX_sptr__post(self, which_port, msg)
+
+
+    def message_ports_in(self):
+        """message_ports_in(probe_signal_mX_sptr self) -> swig_int_ptr"""
+        return _beamformer_swig.probe_signal_mX_sptr_message_ports_in(self)
+
+
+    def message_ports_out(self):
+        """message_ports_out(probe_signal_mX_sptr self) -> swig_int_ptr"""
+        return _beamformer_swig.probe_signal_mX_sptr_message_ports_out(self)
+
+
+    def message_subscribers(self, which_port):
+        """message_subscribers(probe_signal_mX_sptr self, swig_int_ptr which_port) -> swig_int_ptr"""
+        return _beamformer_swig.probe_signal_mX_sptr_message_subscribers(self, which_port)
+
+probe_signal_mX_sptr_swigregister = _beamformer_swig.probe_signal_mX_sptr_swigregister
+probe_signal_mX_sptr_swigregister(probe_signal_mX_sptr)
+
+
+probe_signal_mX_sptr.__repr__ = lambda self: "<gr_block %s (%d)>" % (self.name(), self.unique_id())
+probe_signal_mX = probe_signal_mX.make;
+
 
 

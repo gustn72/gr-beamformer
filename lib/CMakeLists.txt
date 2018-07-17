@@ -26,7 +26,8 @@ include_directories(${Boost_INCLUDE_DIR})
 link_directories(${Boost_LIBRARY_DIRS})
 list(APPEND beamformer_sources
     beampattern_impl.cc
-    Constraint_Beamformer_impl.cc )
+    Constraint_Beamformer_impl.cc
+    probe_signal_mX_impl.cc )
 
 set(beamformer_sources "${beamformer_sources}" PARENT_SCOPE)
 if(NOT beamformer_sources)
@@ -52,3 +53,4 @@ install(TARGETS gnuradio-beamformer
     ARCHIVE DESTINATION lib${LIB_SUFFIX} # .lib file
     RUNTIME DESTINATION bin              # .dll file
 )
+#    ${CMAKE_CURRENT_SOURCE_DIR}/qa_probe_signal_mX.cc

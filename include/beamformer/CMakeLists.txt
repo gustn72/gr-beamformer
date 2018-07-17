@@ -23,5 +23,7 @@
 install(FILES
     api.h
     beampattern.h
-    Constraint_Beamformer.h DESTINATION include/beamformer
+    Constraint_Beamformer.h
+    probe_signal_mX.h
+    probe_signal_mX.h DESTINATION include/beamformer
 )

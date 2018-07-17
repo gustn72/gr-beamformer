@@ -5,6 +5,7 @@
     <innerfile refid="api_8h">api.h</innerfile>
     <innerfile refid="beampattern_8h">beampattern.h</innerfile>
     <innerfile refid="include_2beamformer_2Constraint__Beamformer_8h">include/beamformer/Constraint_Beamformer.h</innerfile>
+    <innerfile refid="probe__signal__mX_8h">probe_signal_mX.h</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

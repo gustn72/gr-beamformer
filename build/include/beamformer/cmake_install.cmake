@@ -37,6 +37,8 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
     "/home/wsl/gr-beamformer/include/beamformer/api.h"
     "/home/wsl/gr-beamformer/include/beamformer/beampattern.h"
     "/home/wsl/gr-beamformer/include/beamformer/Constraint_Beamformer.h"
+    "/home/wsl/gr-beamformer/include/beamformer/probe_signal_mX.h"
+    "/home/wsl/gr-beamformer/include/beamformer/probe_signal_mX.h"
     )
 endif()
 

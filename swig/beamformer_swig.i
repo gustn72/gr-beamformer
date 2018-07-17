@@ -10,9 +10,14 @@
 %{
 #include "beamformer/beampattern.h"
 #include "beamformer/Constraint_Beamformer.h"
+#include "beamformer/probe_signal_mX.h"
 %}
 
 %include "beamformer/beampattern.h"
 GR_SWIG_BLOCK_MAGIC2(beamformer, beampattern);
 %include "beamformer/Constraint_Beamformer.h"
 GR_SWIG_BLOCK_MAGIC2(beamformer, Constraint_Beamformer);
+
+
+%include "beamformer/probe_signal_mX.h"
+GR_SWIG_BLOCK_MAGIC2(beamformer, probe_signal_mX);

@@ -6,6 +6,8 @@
     <innerclass refid="classgr_1_1beamformer_1_1beampattern__impl" prot="public">gr::beamformer::beampattern_impl</innerclass>
     <innerclass refid="classgr_1_1beamformer_1_1Constraint__Beamformer" prot="public">gr::beamformer::Constraint_Beamformer</innerclass>
     <innerclass refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl" prot="public">gr::beamformer::Constraint_Beamformer_impl</innerclass>
+    <innerclass refid="classgr_1_1beamformer_1_1probe__signal__mX" prot="public">gr::beamformer::probe_signal_mX</innerclass>
+    <innerclass refid="classgr_1_1beamformer_1_1probe__signal__mX__impl" prot="public">gr::beamformer::probe_signal_mX_impl</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

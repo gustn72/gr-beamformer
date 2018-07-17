@@ -5,6 +5,7 @@ swig/CMakeFiles/_beamformer_swig.dir/beamformer_swigPYTHON_wrap.cxx.o
  ../include/beamformer/Constraint_Beamformer.h
  ../include/beamformer/api.h
  ../include/beamformer/beampattern.h
+ ../include/beamformer/probe_signal_mX.h
  /home/wsl/gr-beamformer/build/swig/beamformer_swigPYTHON_wrap.cxx
  /usr/include/python2.7/Python.h
  /usr/include/python2.7/abstract.h

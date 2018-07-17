@@ -4,6 +4,7 @@
     <compoundname>lib</compoundname>
     <innerfile refid="beampattern__impl_8h">beampattern_impl.h</innerfile>
     <innerfile refid="lib_2Constraint__Beamformer__impl_8h">lib/Constraint_Beamformer_impl.h</innerfile>
+    <innerfile refid="probe__signal__mX__impl_8h">probe_signal_mX_impl.h</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

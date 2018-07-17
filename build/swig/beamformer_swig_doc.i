@@ -67,3 +67,29 @@ Args:
     num_targets : 
     norm_spacing : 
     num_ant_ele : "
+
+%feature("docstring") gr::beamformer::probe_signal_mX "<+description of block+>
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of beamformer::probe_signal_mX.
+
+To avoid accidental use of raw pointers, beamformer::probe_signal_mX's constructor is in a private implementation class. beamformer::probe_signal_mX::make is the public interface for creating new instances.
+
+Args:
+    col : 
+    row : "
+
+
+
+%feature("docstring") gr::beamformer::probe_signal_mX::make "<+description of block+>
+
+Constructor Specific Documentation:
+
+Return a shared_ptr to a new instance of beamformer::probe_signal_mX.
+
+To avoid accidental use of raw pointers, beamformer::probe_signal_mX's constructor is in a private implementation class. beamformer::probe_signal_mX::make is the public interface for creating new instances.
+
+Args:
+    col : 
+    row : "

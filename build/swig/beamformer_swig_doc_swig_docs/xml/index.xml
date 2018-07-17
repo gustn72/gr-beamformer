@@ -8,6 +8,11 @@
     <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer_1a8c81780851d159aa310b9bbd8cee34ea" kind="typedef"><name>sptr</name></member>
     <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer_1aea99987953875af7badefb2218299226" kind="function"><name>make</name></member>
   </compound>
+  <compound refid="classgr_1_1beamformer_1_1probe__signal__mX" kind="class"><name>gr::beamformer::probe_signal_mX</name>
+    <member refid="classgr_1_1beamformer_1_1probe__signal__mX_1afabab661a1a201ad750014918a7e0f1e" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1beamformer_1_1probe__signal__mX_1a468c799b1afa3e83f0fd2c9e4ed65baf" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1beamformer_1_1probe__signal__mX_1a1b949d8773b40df08a6fc3e4b36f40f4" kind="function"><name>level</name></member>
+  </compound>
   <compound refid="namespacegr" kind="namespace"><name>gr</name>
   </compound>
   <compound refid="namespacegr_1_1beamformer" kind="namespace"><name>gr::beamformer</name>
@@ -20,6 +25,8 @@
   <compound refid="beampattern_8h" kind="file"><name>beampattern.h</name>
   </compound>
   <compound refid="Constraint__Beamformer_8h" kind="file"><name>Constraint_Beamformer.h</name>
+  </compound>
+  <compound refid="probe__signal__mX_8h" kind="file"><name>probe_signal_mX.h</name>
   </compound>
   <compound refid="dir_e696d481c16de4cf299929b4dbe415d8" kind="dir"><name>/home/wsl/gr-beamformer/include/beamformer</name>
   </compound>

@@ -5,58 +5,71 @@
     <includes local="no">gnuradio/attributes.h</includes>
     <includedby refid="beampattern_8h" local="no">beampattern.h</includedby>
     <includedby refid="include_2beamformer_2Constraint__Beamformer_8h" local="no">Constraint_Beamformer.h</includedby>
+    <includedby refid="probe__signal__mX_8h" local="no">probe_signal_mX.h</includedby>
     <includedby refid="temp_2Constraint__Beamformer_8h" local="no">Constraint_Beamformer.h</includedby>
     <incdepgraph>
-      <node id="54">
+      <node id="71">
         <label>gnuradio/attributes.h</label>
       </node>
-      <node id="53">
+      <node id="70">
         <label>api.h</label>
         <link refid="api.h"/>
-        <childnode refid="54" relation="include">
+        <childnode refid="71" relation="include">
         </childnode>
       </node>
     </incdepgraph>
     <invincdepgraph>
-      <node id="56">
+      <node id="79">
+        <label>probe_signal_mX_impl.h</label>
+        <link refid="probe__signal__mX__impl_8h"/>
+      </node>
+      <node id="73">
         <label>beampattern.h</label>
         <link refid="beampattern_8h"/>
-        <childnode refid="57" relation="include">
+        <childnode refid="74" relation="include">
         </childnode>
       </node>
-      <node id="60">
+      <node id="77">
         <label>Constraint_Beamformer_impl.h</label>
         <link refid="temp_2Constraint__Beamformer__impl_8h"/>
       </node>
-      <node id="57">
+      <node id="74">
         <label>beampattern_impl.h</label>
         <link refid="beampattern__impl_8h"/>
       </node>
-      <node id="61">
+      <node id="80">
         <label>Constraint_Beamformer.h</label>
         <link refid="temp_2Constraint__Beamformer_8h"/>
       </node>
-      <node id="58">
+      <node id="75">
         <label>Constraint_Beamformer.h</label>
         <link refid="include_2beamformer_2Constraint__Beamformer_8h"/>
-        <childnode refid="59" relation="include">
+        <childnode refid="76" relation="include">
         </childnode>
-        <childnode refid="60" relation="include">
+        <childnode refid="77" relation="include">
         </childnode>
       </node>
-      <node id="55">
+      <node id="72">
         <label>api.h</label>
         <link refid="api.h"/>
-        <childnode refid="56" relation="include">
+        <childnode refid="73" relation="include">
         </childnode>
-        <childnode refid="58" relation="include">
+        <childnode refid="75" relation="include">
         </childnode>
-        <childnode refid="61" relation="include">
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
         </childnode>
       </node>
-      <node id="59">
+      <node id="76">
         <label>Constraint_Beamformer_impl.h</label>
         <link refid="lib_2Constraint__Beamformer__impl_8h"/>
+      </node>
+      <node id="78">
+        <label>probe_signal_mX.h</label>
+        <link refid="probe__signal__mX_8h"/>
+        <childnode refid="79" relation="include">
+        </childnode>
       </node>
     </invincdepgraph>
       <sectiondef kind="define">

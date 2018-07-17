@@ -123,7 +123,7 @@ namespace gr {
             Q_temp = as_scalar(weight_temp*d_vii_matrix.col(ii));
             out_vec(ii) = sqrt(Q_temp.real()*Q_temp.real()+Q_temp.imag()*Q_temp.imag());
           }
-  }
+        }
 
       // Tell runtime system how many output items we produced.
       return noutput_items;

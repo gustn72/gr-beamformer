@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<block>
+	<name>Probe Marix Vector</name>
+	<key>beamformer_probe_signal_mx</key>
+	<category>beamformer</category>
+	<import>import beamformer</import>
+	<make>beamformer.probe_signal_m$(type.fcn)($col,$row)</make>
+
+	<param>
+		<name>Input Type</name>
+		<key>type</key>
+		<type>enum</type>
+		<option>
+			<name>Complex</name>
+			<key>complex</key>
+			<opt>fcn:c</opt>
+		</option>
+		<option>
+			<name>Float</name>
+			<key>float</key>
+			<opt>fcn:f</opt>
+		</option>
+		<option>
+			<name>Int</name>
+			<key>int</key>
+			<opt>fcn:i</opt>
+		</option>
+		<option>
+			<name>Short</name>
+			<key>short</key>
+			<opt>fcn:s</opt>
+		</option>
+		<option>
+			<name>Byte</name>
+			<key>byte</key>
+			<opt>fcn:b</opt>
+		</option>
+	</param>
+	<param>
+		<name>Cols</name>
+		<key>col</key>
+		<value>1</value>
+		<type>int</type>
+	</param>
+	<check>$col &gt; 0</check>
+	<param>
+		<name>Rows</name>
+		<key>row</key>
+		<value>1</value>
+		<type>int</type>
+	</param>
+	<check>$row &gt; 0</check>
+	<sink>
+		<name>in</name>
+		<type>float</type>
+		<vlen>$col*$row</vlen>
+	</sink>
+	<doc>
+		Available functions to probe: level() Use with the function probe block.
+	</doc>
+</block>

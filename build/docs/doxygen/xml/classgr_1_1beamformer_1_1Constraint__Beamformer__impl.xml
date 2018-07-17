@@ -348,50 +348,50 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="35">
+      <node id="41">
         <label>block</label>
       </node>
-      <node id="33">
+      <node id="39">
         <label>gr::beamformer::Constraint_Beamformer</label>
         <link refid="classgr_1_1beamformer_1_1Constraint__Beamformer"/>
-        <childnode refid="34" relation="public-inheritance">
+        <childnode refid="40" relation="public-inheritance">
         </childnode>
-        <childnode refid="35" relation="public-inheritance">
+        <childnode refid="41" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="34">
+      <node id="40">
         <label>gr::block</label>
       </node>
-      <node id="32">
+      <node id="38">
         <label>gr::beamformer::Constraint_Beamformer_impl</label>
         <link refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl"/>
-        <childnode refid="33" relation="public-inheritance">
-        </childnode>
-        <childnode refid="33" relation="public-inheritance">
-        </childnode>
-      </node>
-    </inheritancegraph>
-    <collaborationgraph>
-      <node id="39">
-        <label>block</label>
-      </node>
-      <node id="37">
-        <label>gr::beamformer::Constraint_Beamformer</label>
-        <link refid="classgr_1_1beamformer_1_1Constraint__Beamformer"/>
-        <childnode refid="38" relation="public-inheritance">
+        <childnode refid="39" relation="public-inheritance">
         </childnode>
         <childnode refid="39" relation="public-inheritance">
         </childnode>
       </node>
-      <node id="38">
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="45">
+        <label>block</label>
+      </node>
+      <node id="43">
+        <label>gr::beamformer::Constraint_Beamformer</label>
+        <link refid="classgr_1_1beamformer_1_1Constraint__Beamformer"/>
+        <childnode refid="44" relation="public-inheritance">
+        </childnode>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="44">
         <label>gr::block</label>
       </node>
-      <node id="36">
+      <node id="42">
         <label>gr::beamformer::Constraint_Beamformer_impl</label>
         <link refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl"/>
-        <childnode refid="37" relation="public-inheritance">
+        <childnode refid="43" relation="public-inheritance">
         </childnode>
-        <childnode refid="37" relation="public-inheritance">
+        <childnode refid="43" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>

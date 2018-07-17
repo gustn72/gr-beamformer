@@ -44,6 +44,20 @@
     <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1afcf256cdebef5e06ad29dba213a55907" kind="function"><name>amv</name></member>
     <member refid="classgr_1_1beamformer_1_1Constraint__Beamformer__impl_1a3ceb1d9dabe5df0ea4166a60bf8dddec" kind="function"><name>general_work</name></member>
   </compound>
+  <compound refid="classgr_1_1beamformer_1_1probe__signal__mX" kind="class"><name>gr::beamformer::probe_signal_mX</name>
+    <member refid="classgr_1_1beamformer_1_1probe__signal__mX_1afabab661a1a201ad750014918a7e0f1e" kind="typedef"><name>sptr</name></member>
+    <member refid="classgr_1_1beamformer_1_1probe__signal__mX_1a468c799b1afa3e83f0fd2c9e4ed65baf" kind="function"><name>make</name></member>
+    <member refid="classgr_1_1beamformer_1_1probe__signal__mX_1a1b949d8773b40df08a6fc3e4b36f40f4" kind="function"><name>level</name></member>
+  </compound>
+  <compound refid="classgr_1_1beamformer_1_1probe__signal__mX__impl" kind="class"><name>gr::beamformer::probe_signal_mX_impl</name>
+    <member refid="classgr_1_1beamformer_1_1probe__signal__mX__impl_1ab2bc6e822f4ce45990c3926002b62cdf" kind="variable"><name>d_level</name></member>
+    <member refid="classgr_1_1beamformer_1_1probe__signal__mX__impl_1ab9552cf009617e4d4e85f362dd3050ea" kind="variable"><name>d_col</name></member>
+    <member refid="classgr_1_1beamformer_1_1probe__signal__mX__impl_1aca82d3248462d59c1bdfbab31134b67f" kind="variable"><name>d_row</name></member>
+    <member refid="classgr_1_1beamformer_1_1probe__signal__mX__impl_1a20c538ed829507568ee9929c0734ca6a" kind="function"><name>probe_signal_mX_impl</name></member>
+    <member refid="classgr_1_1beamformer_1_1probe__signal__mX__impl_1a3182e27cb88ef250325c9d86c84fbd65" kind="function"><name>~probe_signal_mX_impl</name></member>
+    <member refid="classgr_1_1beamformer_1_1probe__signal__mX__impl_1a9acda9ebef5365883dc80008c950e7d9" kind="function"><name>level</name></member>
+    <member refid="classgr_1_1beamformer_1_1probe__signal__mX__impl_1a37fa679c29583f6d75ded4c1ecdfc7ce" kind="function"><name>work</name></member>
+  </compound>
   <compound refid="namespacearma" kind="namespace"><name>arma</name>
   </compound>
   <compound refid="namespacegr" kind="namespace"><name>gr</name>
@@ -70,6 +84,10 @@
   <compound refid="group__defs_8dox" kind="file"><name>group_defs.dox</name>
   </compound>
   <compound refid="main__page_8dox" kind="file"><name>main_page.dox</name>
+  </compound>
+  <compound refid="probe__signal__mX_8h" kind="file"><name>probe_signal_mX.h</name>
+  </compound>
+  <compound refid="probe__signal__mX__impl_8h" kind="file"><name>probe_signal_mX_impl.h</name>
   </compound>
   <compound refid="group__block" kind="group"><name>block</name>
   </compound>

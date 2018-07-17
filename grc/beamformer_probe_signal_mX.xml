@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<block>
+	<name>probe_signal_mX</name>
+	<key>beamformer_probe_signal_mX</key>
+	<category>beamformer</category>
+	<import>import beamformer</import>
+	<make>beamformer.probe_signal_mX($col,$row)</make>
+	<param>
+		<name>Cols</name>
+		<key>col</key>
+		<value>1</value>
+		<type>int</type>
+	</param>
+	<param>
+		<name>Rows</name>
+		<key>row</key>
+		<value>1</value>
+		<type>int</type>
+	</param>
+	<check>$col &gt; 0</check>
+	<check>$row &gt; 0</check>
+	<sink>
+		<name>in</name>
+		<type>complex</type>
+		<vlen>$col*$row</vlen>
+	</sink>
+	<doc>
+		Available functions to probe: level() Use with the function probe block.
+	</doc>
+</block>

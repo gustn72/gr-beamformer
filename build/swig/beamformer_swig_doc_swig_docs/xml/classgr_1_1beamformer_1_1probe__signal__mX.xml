@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classgr_1_1beamformer_1_1probe__signal__mX" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>gr::beamformer::probe_signal_mX</compoundname>
+    <basecompoundref prot="public" virt="virtual">sync_block</basecompoundref>
+    <includes refid="probe__signal__mX_8h" local="no">probe_signal_mX.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="typedef" id="classgr_1_1beamformer_1_1probe__signal__mX_1afabab661a1a201ad750014918a7e0f1e" prot="public" static="no">
+        <type>boost::shared_ptr&lt; <ref refid="classgr_1_1beamformer_1_1probe__signal__mX" kindref="compound">probe_signal_mX</ref> &gt;</type>
+        <definition>typedef boost::shared_ptr&lt;probe_signal_mX&gt; gr::beamformer::probe_signal_mX::sptr</definition>
+        <argsstring></argsstring>
+        <name>sptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/include/beamformer/probe_signal_mX.h" line="40" column="1" bodyfile="/home/wsl/gr-beamformer/include/beamformer/probe_signal_mX.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1probe__signal__mX_1a468c799b1afa3e83f0fd2c9e4ed65baf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="classgr_1_1beamformer_1_1probe__signal__mX_1afabab661a1a201ad750014918a7e0f1e" kindref="member">sptr</ref></type>
+        <definition>static sptr gr::beamformer::probe_signal_mX::make</definition>
+        <argsstring>(int col, int row)</argsstring>
+        <name>make</name>
+        <param>
+          <type>int</type>
+          <declname>col</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>row</declname>
+        </param>
+        <briefdescription>
+<para>Return a shared_ptr to a new instance of <ref refid="classgr_1_1beamformer_1_1probe__signal__mX" kindref="compound">beamformer::probe_signal_mX</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para>To avoid accidental use of raw pointers, <ref refid="classgr_1_1beamformer_1_1probe__signal__mX" kindref="compound">beamformer::probe_signal_mX</ref>&apos;s constructor is in a private implementation class. <ref refid="classgr_1_1beamformer_1_1probe__signal__mX_1a468c799b1afa3e83f0fd2c9e4ed65baf" kindref="member">beamformer::probe_signal_mX::make</ref> is the public interface for creating new instances. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/include/beamformer/probe_signal_mX.h" line="50" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classgr_1_1beamformer_1_1probe__signal__mX_1a1b949d8773b40df08a6fc3e4b36f40f4" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; std::vector&lt; std::complex&lt; float &gt; &gt; &gt;</type>
+        <definition>virtual std::vector&lt;std::vector&lt;std::complex&lt; float &gt; &gt; &gt; gr::beamformer::probe_signal_mX::level</definition>
+        <argsstring>() const =0</argsstring>
+        <name>level</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/wsl/gr-beamformer/include/beamformer/probe_signal_mX.h" line="51" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>&lt;+description of block+&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="9">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="8">
+        <label>gr::beamformer::probe_signal_mX</label>
+        <link refid="classgr_1_1beamformer_1_1probe__signal__mX"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="11">
+        <label>gr::sync_block</label>
+      </node>
+      <node id="10">
+        <label>gr::beamformer::probe_signal_mX</label>
+        <link refid="classgr_1_1beamformer_1_1probe__signal__mX"/>
+        <childnode refid="11" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/wsl/gr-beamformer/include/beamformer/probe_signal_mX.h" line="38" column="1" bodyfile="/home/wsl/gr-beamformer/include/beamformer/probe_signal_mX.h" bodystart="37" bodyend="52"/>
+    <listofallmembers>
+      <member refid="classgr_1_1beamformer_1_1probe__signal__mX_1a1b949d8773b40df08a6fc3e4b36f40f4" prot="public" virt="pure-virtual"><scope>gr::beamformer::probe_signal_mX</scope><name>level</name></member>
+      <member refid="classgr_1_1beamformer_1_1probe__signal__mX_1a468c799b1afa3e83f0fd2c9e4ed65baf" prot="public" virt="non-virtual"><scope>gr::beamformer::probe_signal_mX</scope><name>make</name></member>
+      <member refid="classgr_1_1beamformer_1_1probe__signal__mX_1afabab661a1a201ad750014918a7e0f1e" prot="public" virt="non-virtual"><scope>gr::beamformer::probe_signal_mX</scope><name>sptr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

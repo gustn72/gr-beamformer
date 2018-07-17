@@ -24,6 +24,14 @@ beamformer/api.h
 gnuradio/sync_block.h
 -
 
+../include/beamformer/probe_signal_mX.h
+vector
+-
+beamformer/api.h
+-
+gnuradio/sync_block.h
+-
+
 /home/wsl/gr-beamformer/build/swig/beamformer_swigPYTHON_wrap.cxx
 Python.h
 -
@@ -73,6 +81,8 @@ beamformer/beampattern.h
 /home/wsl/gr-beamformer/build/swig/beamformer/beampattern.h
 beamformer/Constraint_Beamformer.h
 /home/wsl/gr-beamformer/build/swig/beamformer/Constraint_Beamformer.h
+beamformer/probe_signal_mX.h
+/home/wsl/gr-beamformer/build/swig/beamformer/probe_signal_mX.h
 float.h
 -
 math.h

@@ -4,6 +4,7 @@
 swig/CMakeFiles/_beamformer_swig.dir/beamformer_swigPYTHON_wrap.cxx.o: ../include/beamformer/Constraint_Beamformer.h
 swig/CMakeFiles/_beamformer_swig.dir/beamformer_swigPYTHON_wrap.cxx.o: ../include/beamformer/api.h
 swig/CMakeFiles/_beamformer_swig.dir/beamformer_swigPYTHON_wrap.cxx.o: ../include/beamformer/beampattern.h
+swig/CMakeFiles/_beamformer_swig.dir/beamformer_swigPYTHON_wrap.cxx.o: ../include/beamformer/probe_signal_mX.h
 swig/CMakeFiles/_beamformer_swig.dir/beamformer_swigPYTHON_wrap.cxx.o: swig/beamformer_swigPYTHON_wrap.cxx
 swig/CMakeFiles/_beamformer_swig.dir/beamformer_swigPYTHON_wrap.cxx.o: /usr/include/python2.7/Python.h
 swig/CMakeFiles/_beamformer_swig.dir/beamformer_swigPYTHON_wrap.cxx.o: /usr/include/python2.7/abstract.h

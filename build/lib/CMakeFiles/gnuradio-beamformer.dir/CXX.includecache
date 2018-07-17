@@ -24,6 +24,14 @@ beamformer/api.h
 gnuradio/sync_block.h
 -
 
+../include/beamformer/probe_signal_mX.h
+vector
+-
+beamformer/api.h
+-
+gnuradio/sync_block.h
+-
+
 /home/wsl/gr-beamformer/lib/Constraint_Beamformer_impl.cc
 config.h
 /home/wsl/gr-beamformer/lib/config.h
@@ -50,6 +58,22 @@ beampattern_impl.h
 beamformer/beampattern.h
 -
 armadillo
+-
+
+/home/wsl/gr-beamformer/lib/probe_signal_mX_impl.cc
+config.h
+/home/wsl/gr-beamformer/lib/config.h
+gnuradio/io_signature.h
+-
+probe_signal_mX_impl.h
+/home/wsl/gr-beamformer/lib/probe_signal_mX_impl.h
+
+/home/wsl/gr-beamformer/lib/probe_signal_mX_impl.h
+beamformer/probe_signal_mX.h
+-
+vector
+-
+complex
 -
 
 /usr/local/include/gnuradio/api.h
